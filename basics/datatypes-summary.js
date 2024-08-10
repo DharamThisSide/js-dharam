@@ -30,3 +30,30 @@ const myFunction = function(){
 }
 myFunction();
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory=>primitive isme copy ka use hota h and Heap memory=> non primitive me use isme reference milta h
+
+let myName="dharampal" 
+let anotherName = myName
+anotherName="dharam"
+
+console.log(myName);
+
+console.log(anotherName);
+
+let user1 = {
+    email: "user@gmail.com",
+    upi:"user@ybl",
+};
+let user2=user1;
+
+user2.email = "dharam@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
