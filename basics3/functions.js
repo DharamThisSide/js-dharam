@@ -55,9 +55,3 @@ function retsec(a)
     return a[1]
 }
 console.log(retsec(arr));
-
-
-
-
-
-
